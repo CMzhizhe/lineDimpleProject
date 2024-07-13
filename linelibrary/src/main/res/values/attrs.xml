@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DiscountView">
+        <attr name="discount_view_under_color" format="color"/>
+        <attr name="discount_view_foreground_color" format="color"/>
+        <attr name="discount_view_paint_width" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="RadianView">
+        <attr name="radian_view_under_color" format="color"/>
+        <attr name="radian_view_foreground_color" format="color"/>
+        <attr name="radian_view_paint_width" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="RectangularView">
+        <attr name="rectangular_view_under_color" format="color"/>
+        <attr name="rectangular_view_foreground_color" format="color"/>
+        <attr name="rectangular_view_paint_width" format="dimension"/>
+        <attr name="rectangular_view_corner" format="dimension"/>
+        <attr name="rectangular_view_foreground_color_array" format="reference"/>
+        <attr name="rectangular_view_foreground_gradient_style">
+            <enum name="GRADIENT_STYLE_1" value="1"/>
+            <enum name="GRADIENT_STYLE_2" value="2"/>
+        </attr>
+    </declare-styleable>
+
+
+</resources>

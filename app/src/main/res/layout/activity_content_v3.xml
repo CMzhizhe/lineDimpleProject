@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:background="@color/color_F54D5F"
+        android:layout_width="110dp"
+        android:layout_height="118dp">
+
+        <com.gxx.linelibrary.DiscountView
+            android:id="@+id/discount_view"
+            android:layout_gravity="center"
+            android:paddingHorizontal="2dp"
+            android:layout_marginHorizontal="15dp"
+            app:discount_view_under_color="@color/color_df1c2e"
+            app:discount_view_foreground_color="@color/white"
+            app:discount_view_paint_width="3.4dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/bt_start"
+        android:text="开始"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

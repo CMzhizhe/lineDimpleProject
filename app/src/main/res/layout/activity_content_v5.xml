@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_marginHorizontal="20dp"
+        android:background="#23D5EA"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <com.gxx.linelibrary.RectangularView
+            android:id="@+id/rectangular_view"
+            android:layout_gravity="center"
+            app:rectangular_view_paint_width="5dp"
+            app:rectangular_view_under_color="@color/color_1FAECE"
+            app:rectangular_view_foreground_color="@color/white"
+            app:rectangular_view_foreground_color_array="@array/my_color_array"
+            app:rectangular_view_foreground_gradient_style="GRADIENT_STYLE_2"
+            app:rectangular_view_corner="24dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/start"
+        android:text="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

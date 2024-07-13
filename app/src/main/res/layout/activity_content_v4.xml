@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:background="#2B67FE"
+        android:layout_gravity="center"
+        android:layout_width="110dp"
+        android:layout_height="118dp">
+
+        <com.gxx.linelibrary.RadianView
+            android:id="@+id/radian_view"
+            android:layout_width="60dp"
+            app:radian_view_under_color="@color/color_1F48CE"
+            app:radian_view_foreground_color="@color/white"
+            app:radian_view_paint_width="4.84dp"
+            android:layout_gravity="center"
+            android:layout_height="60dp"/>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/start"
+        android:text="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
