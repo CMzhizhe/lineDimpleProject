@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="400dp">
 
-        <com.example.linedimpleproject.ui.widget.LineView
+        <com.gxx.linelibrary.LineView
             android:id="@+id/line_view"
             android:paddingHorizontal="10dp"
             android:layout_marginHorizontal="10dp"

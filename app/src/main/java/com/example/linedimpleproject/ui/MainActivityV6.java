@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.example.linedimpleproject.R;
-import com.example.linedimpleproject.ui.widget.LineView;
+import com.gxx.linelibrary.LineView;
 
 public class MainActivityV6 extends Activity {
 
