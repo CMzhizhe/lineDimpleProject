@@ -27,4 +27,17 @@
     </declare-styleable>
 
 
+    <declare-styleable name="LineView">
+        <attr name="line_view_under_color" format="color"/>
+        <attr name="line_view_foreground_color" format="color"/>
+        <attr name="line_view_paint_width" format="dimension"/>
+        <attr name="line_view_corner" format="dimension"/>
+        <attr name="line_view_foreground_color_array" format="reference"/>
+        <attr name="line_view_foreground_gradient_style">
+            <enum name="GRADIENT_STYLE_1" value="1"/>
+            <enum name="GRADIENT_STYLE_2" value="2"/>
+        </attr>
+    </declare-styleable>
+
+
 </resources>
