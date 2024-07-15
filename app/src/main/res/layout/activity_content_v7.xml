@@ -12,10 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="400dp">
 
-        <com.example.linedimpleproject.ui.widget.StepsLineView
-            android:id="@+id/line_view"
-            android:paddingHorizontal="10dp"
-            android:layout_marginHorizontal="10dp"
+        <com.gxx.linelibrary.StepsLineView
+            android:id="@+id/steps_line_view"
             android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>

@@ -40,4 +40,12 @@
     </declare-styleable>
 
 
+    <declare-styleable name="StepsLineView">
+        <attr name="step_live_view_under_color" format="color"/>
+        <attr name="step_live_view_foreground_color" format="color"/>
+        <attr name="step_live_view_paint_width" format="dimension"/>
+        <attr name="step_live_view_gap" format="dimension"/>
+        <attr name="step_live_view_corner" format="dimension"/>
+    </declare-styleable>
+
 </resources>

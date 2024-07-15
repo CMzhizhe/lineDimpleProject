@@ -172,8 +172,6 @@ public class DiscountView extends View {
 
       mIntGerPart = (int) percentNum;
 
-      //Log.d("TAG","百分比 -> " + mInputProgress + "，第几个 -> " + mIntGerPart + "，小数位 -> " + mFloatPart);
-
       invalidate();
    }
 
