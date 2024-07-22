@@ -48,8 +48,8 @@ public class LineView extends View {
         int foregroundColor = typedArray.getColor(R.styleable.LineView_line_view_foreground_color,Color.WHITE);
         int paintWidth = typedArray.getDimensionPixelSize(R.styleable.LineView_line_view_paint_width, DensityUtil.dpToPx(context,10.0f));
         int corner = typedArray.getDimensionPixelSize(R.styleable.LineView_line_view_corner,DensityUtil.dpToPx(context,3.0f));
-        int resourceId = typedArray.getResourceId(R.styleable.LineView_line_view_foreground_color_array,0);
-        int gradientStyle = typedArray.getInt(R.styleable.LineView_line_view_foreground_gradient_style,0);
+        int resourceId = typedArray.getResourceId(R.styleable.LineView_line_view_foreground_color_array,-1);
+        int gradientStyle = typedArray.getInt(R.styleable.LineView_line_view_foreground_gradient_style,-1);
         if(resourceId > 0 && gradientStyle > 0){
             mForegroundColors = context.getResources().getIntArray(typedArray.getResourceId(R.styleable.LineView_line_view_foreground_color_array,0));
         }

@@ -20,7 +20,7 @@
         <attr name="rectangular_view_paint_width" format="dimension"/>
         <attr name="rectangular_view_corner" format="dimension"/>
         <attr name="rectangular_view_foreground_color_array" format="reference"/>
-        <attr name="rectangular_view_foreground_gradient_style">
+        <attr name="rectangular_view_foreground_gradient_style" format="integer">
             <enum name="GRADIENT_STYLE_1" value="1"/>
             <enum name="GRADIENT_STYLE_2" value="2"/>
         </attr>
@@ -33,7 +33,7 @@
         <attr name="line_view_paint_width" format="dimension"/>
         <attr name="line_view_corner" format="dimension"/>
         <attr name="line_view_foreground_color_array" format="reference"/>
-        <attr name="line_view_foreground_gradient_style">
+        <attr name="line_view_foreground_gradient_style" format="integer">
             <enum name="GRADIENT_STYLE_1" value="1"/>
             <enum name="GRADIENT_STYLE_2" value="2"/>
         </attr>
