@@ -35,6 +35,7 @@ public class RecentView  extends View {
         int underColor = typedArray.getColor(R.styleable.RecentView_recent_view_under_color, Color.GRAY);
         int foregroundColor = typedArray.getColor(R.styleable.RecentView_recent_view_foreground_color,Color.BLUE);
         int corner = typedArray.getDimensionPixelSize(R.styleable.LineView_line_view_corner,DensityUtil.dpToPx(context,13.0f));
+        typedArray.recycle();
 
         mCorner = corner;
         mUnderPaint = new Paint();

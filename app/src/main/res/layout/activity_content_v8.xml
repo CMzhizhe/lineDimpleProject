@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:gravity="center"
     android:layout_width="match_parent"
@@ -13,9 +14,12 @@
         android:layout_height="400dp">
 
         <com.gxx.linelibrary.RecentView
+            android:layout_marginHorizontal="16dp"
             android:id="@+id/recent_view"
             android:layout_gravity="center"
             android:layout_width="match_parent"
+            app:recent_view_under_color="@color/color_DCE1E8"
+            app:recent_view_foreground_color="@color/color_0049FF"
             android:layout_height="67dp"/>
 
     </FrameLayout>
