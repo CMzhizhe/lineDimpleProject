@@ -26,7 +26,7 @@
 
 
     <array name="my_color_array">
-        <item>#FF0000</item> <!-- 红色 -->
-        <item>#00FF00</item> <!-- 绿色 -->
+        <item>#3860FF</item> <!-- 绿色 -->
+        <item>#DCE1E8</item> <!-- 红色 -->
     </array>
 </resources>

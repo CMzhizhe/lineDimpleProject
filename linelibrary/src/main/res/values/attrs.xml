@@ -48,4 +48,11 @@
         <attr name="step_live_view_corner" format="dimension"/>
     </declare-styleable>
 
+
+    <declare-styleable name="RecentView">
+        <attr name="recent_view_under_color" format="color"/>
+        <attr name="recent_view_foreground_color" format="color"/>
+        <attr name="recent_view_corner" format="dimension"/>
+    </declare-styleable>
+
 </resources>

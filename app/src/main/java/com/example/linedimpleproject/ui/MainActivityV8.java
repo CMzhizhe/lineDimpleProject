@@ -10,17 +10,19 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.example.linedimpleproject.R;
+import com.gxx.linelibrary.RecentView;
 import com.gxx.linelibrary.StepsLineView;
 
-public class MainActivityV7 extends Activity {
+public class MainActivityV8 extends Activity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_content_v7);
+        setContentView(R.layout.activity_content_v8);
 
-        StepsLineView stepsLineView = this.findViewById(R.id.steps_line_view);
+        RecentView recentView = this.findViewById(R.id.recent_view);
         Button btStart = findViewById(R.id.bt_start);
+
 
         ValueAnimator valueAnimator =  ValueAnimator.ofFloat(0.0f,1.0f);
         btStart.setOnClickListener(new View.OnClickListener() {
@@ -35,7 +37,7 @@ public class MainActivityV7 extends Activity {
             @Override
             public void onAnimationUpdate(@NonNull ValueAnimator animation) {
                 float progress = (float) animation.getAnimatedValue();
-                stepsLineView.setProgress(progress);
+                recentView.setProgress(progress);
             }
         });
 
