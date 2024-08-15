@@ -55,4 +55,14 @@
         <attr name="recent_view_corner" format="dimension"/>
     </declare-styleable>
 
+    <declare-styleable name="BorderLine">
+        <attr name="border_line_under_color" format="color"/>
+        <attr name="border_line_paint_width" format="dimension"/>
+        <attr name="border_line_corner" format="dimension"/>
+        <attr name="border_line_foreground_color" format="color"/>
+        <attr name="border_line_foreground_border_color" format="color"/>
+        <attr name="border_line_foreground_paint_width" format="dimension"/>
+        <attr name="border_line_foreground_border_paint_width" format="dimension"/>
+    </declare-styleable>
+
 </resources>
